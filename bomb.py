@@ -141,7 +141,7 @@ class Ui_MainWindow(object):
             return None
 
         msg_box = driver.find_element_by_xpath(
-            "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/footer[1]/div[1]/div[2]/div[1]/div[2]"
+            "/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[1]"
         )
 
         for i in range(number):
